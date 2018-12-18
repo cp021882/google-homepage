@@ -1,0 +1,79 @@
+.navigation {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.left-menu {
+    width: 50%;
+}
+
+.right-menu {
+    text-align: right;
+    width: 100%;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.red-circle {
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
+
+.red-circle p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 1px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main img {
+    margin-bottom: 10px;
+}
+
+.input {
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 450px;
+    margin: auto;
+    padding: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom: 35px;
+}
+
+.mic {
+    position: relative;
+    left: 0px;
+}
+
+.input input {
+    float: left;
+    width: 400px;
+    border: none;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.main a {
+    font-size: 14px;
+    background-color: lightgrey;
+    padding: 10px 20px;
+    color: grey;
+    margin: 10px;
+}
